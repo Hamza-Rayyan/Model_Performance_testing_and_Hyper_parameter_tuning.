@@ -12,6 +12,7 @@ K-fold for 'model-performance' and Grid_search for 'hyper_parameter_tuning'.
   - here we try different combination of parameter for a model to find the best parameters for our model.
 
 * Result:
+
  *K-fold 
    -With confusion matrix we have the accuracy of our model that is
   [[64  4]
@@ -21,6 +22,7 @@ K-fold for 'model-performance' and Grid_search for 'hyper_parameter_tuning'.
     Accuracy: 90.33 %
 Standard Deviation: 6.57 %
   here the accuracy is the average of all fold results and standard deviation is the variance between each fold result accuracy.
+
  *Grid search
     - Applying Grid Search to find the best model and the best parameters.
     - best suitable hyper parameters for our trained model is
